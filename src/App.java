@@ -4,6 +4,6 @@ public class App {
         FileHandler fileHandler = new FileHandler();
         String fileName = "resources/ListadoProducto.txt";
         System.out.println(fileHandler.readFromFile(fileName));
-        
+
     }
 }
